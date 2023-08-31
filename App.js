@@ -12,7 +12,7 @@ import Screens from './src/Screens';
 import DrawerNav from './src/Drawer';
 
 //Please comment other two navigation components to see each of them properly
-function StackNavigation() {
+function App() {
   return (
     <>
       <Tabs />
@@ -22,4 +22,4 @@ function StackNavigation() {
   );
 }
 
-export default StackNavigation;
+export default App;
