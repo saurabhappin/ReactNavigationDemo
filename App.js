@@ -15,8 +15,8 @@ import DrawerNav from './src/Drawer';
 function App() {
   return (
     <>
-      <Tabs />
-      <Screens />
+      {/* <Tabs /> */}
+      {/* <Screens /> */}
       <DrawerNav />
     </>
   );

@@ -10,6 +10,11 @@ export default function Screen3({navigation}) {
         style={styles.button}>
         <Text>Go back to Screen 1</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => navigation.navigate('IndividualTabs')}
+        style={styles.button}>
+        <Text>Go back to Tabs</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 }
@@ -26,7 +31,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
     marginHorizontal: '30%',
-    marginVertical: '10%',
+    marginVertical: '3%',
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
