@@ -4,7 +4,7 @@ import {SafeAreaView, StyleSheet, Text, TouchableOpacity} from 'react-native';
 export default function Screen1({navigation}) {
   return (
     <SafeAreaView>
-      <Text style={styles.mainText}>Welcome to Screen 1!</Text>
+      <Text style={styles.mainText}>Your Contacts!</Text>
       <TouchableOpacity
         onPress={() => navigation.navigate('Screen2')}
         style={styles.button}>

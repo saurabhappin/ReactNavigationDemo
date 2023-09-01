@@ -14,8 +14,8 @@ export default function DrawerNav() {
   return (
     <NavigationContainer>
       <Drawer.Navigator>
-        <Drawer.Screen name="Tabs" component={Screens} />
-        <Drawer.Screen name="Screen1" component={Screen1} />
+        <Drawer.Screen name="Home" component={Screens} />
+        <Drawer.Screen name="Contacts" component={Screen1} />
         <Drawer.Screen name="Screen2" component={Screen2} />
         <Drawer.Screen name="Screen3" component={Screen3} />
       </Drawer.Navigator>
